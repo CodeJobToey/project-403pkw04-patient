@@ -107,7 +107,7 @@ class MyMapPageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Patient'),
+        title: Text(widget.title),
         centerTitle: true,
       ),
       body: GoogleMap(
